@@ -5,7 +5,7 @@ Projeto final do curso Origamid utilizando HTML, CSS e JavaScript, com o objetiv
 ## 🔨 FERRAMENTAS
 - HTML5
 - CSS3
-- -JavaScript
+- JavaScript
 
 ## 📱 REDES SOCIAIS
 #### [Linkedin](https://www.linkedin.com/in/matheusfelipetp/)
