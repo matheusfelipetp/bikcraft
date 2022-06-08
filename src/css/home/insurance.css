@@ -1,4 +1,4 @@
-.section__insurance {
+.article__insurance {
   padding-top: 60px;
   padding-bottom: 120px;
   background: var(--color-11);
@@ -69,7 +69,7 @@
 }
 
 @media (max-width: 800px) {
-  .section__insurance {
+  .article__insurance {
     padding-bottom: 60px;
   }
   .insurance__box {

@@ -3,6 +3,10 @@ body {
   color: var(--color-11);
 }
 
+figcaption {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
