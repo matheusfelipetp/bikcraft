@@ -77,4 +77,19 @@
     margin-top: 30px;
     flex-direction: column;
   }
+  .insurance__info {
+    height: 100%
+  }
+  .gold {
+    height: 100%
+  }
+}
+
+@media (max-width: 300px) {
+  .insurance__info {
+    height: 100%
+  }
+  .gold {
+    height: 100%
+  }
 }
