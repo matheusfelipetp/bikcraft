@@ -1,0 +1,24 @@
+:root {
+  --color-0: #ffffff;
+  --color-1: #f7f7f7;
+  --color-2: #ededed;
+  --color-3: #dedede;
+  --color-4: #cccccc;
+  --color-5: #b3b3b3;
+  --color-6: #999999;
+  --color-7: #737373;
+  --color-8: #595959;
+  --color-9: #404040;
+  --color-10: #2e2e2e;
+  --color-11: #121212;
+  --color-12: #000000;
+
+  --primary-1: #ffbb00;
+  --primary-2: #e4a30b;
+  --primary-3: #a66f00;
+  --primary-4: #664400;
+  --primary-5: #332200;
+
+  --btn: linear-gradient(180deg, #ffbf00 0%, #f2a60c 100%);
+  --btn-hover: linear-gradient(180deg, #ffb60d 0%, #e59317 100%);
+}

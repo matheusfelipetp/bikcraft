@@ -1,0 +1,11 @@
+@import url("./global/global.css");
+@import url("./utilities/typography.css");
+@import url("./utilities/colors.css");
+@import url("./utilities/components.css");
+@import url("./global/header.css");
+@import url("./home/intro.css");
+@import url("./home/bike-home.css");
+@import url("./home/tech-home.css");
+@import url("./home/partners.css");
+@import url("./home/declaration.css");
+@import url("./home/insurance.css");
