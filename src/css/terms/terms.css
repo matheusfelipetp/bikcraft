@@ -1,0 +1,26 @@
+.section__terms {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 120px 20px;
+}
+
+.terms__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.terms__info h3 {
+  font-weight: 600;
+}
+
+.terms__info p {
+  max-width: 75ch;
+}
+
+@media (max-width: 800px) {
+  .section__terms {
+    padding: 60px 20px;
+  }
+}
