@@ -1,0 +1,88 @@
+#contact .header__nav li:nth-child(3) a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--color-0);
+  transition: 0.3s ease;
+  position: absolute;
+}
+
+.contact__form {
+  background: var(--color-11);
+  padding-bottom: 120px;
+  box-shadow: inset 0px -380px var(--color-0);
+}
+
+.contact__form__info {
+  background: var(--color-12);
+  color: var(--color-0);
+  padding: 60px;
+  border-radius: 4px;
+}
+
+.contact__form__info h2 {
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+#contact .contact__info li a,
+#contact .contact__info li {
+  color: var(--color-4);
+  transition: 0.3s ease;
+}
+
+#contact .contact__info li {
+  margin-bottom: 4px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#contact .contact__info li:nth-child(even) {
+  margin-bottom: 32px;
+  padding-left: 25px;
+}
+
+#contact .contact__info li:nth-child(even)::after {
+  display: none;
+}
+
+#contact .contact__info li:nth-child(1)::before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url("../../img/ícones/local.svg");
+}
+
+#contact .contact__info li:nth-child(3)::before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 13px;
+  background: url("../../img/ícones/email.svg");
+}
+
+#contact .contact__info li:nth-child(5)::before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url("../../img/ícones/telefone.svg");
+}
+
+#contact .contact__info li a:hover {
+  color: var(--color-0);
+  transition: 0.3s ease;
+}
+
+#contact .contact__media {
+  margin-top: 60px;
+}
+
+@media (max-width: 800px) {
+  #contact .header__nav li:nth-child(3) a::after {
+    display: none;
+  }
+}

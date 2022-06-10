@@ -9,7 +9,7 @@
 @import url("./home/partners.css");
 @import url("./home/declaration.css");
 @import url("./home/insurance-home.css");
-@import url("./home/footer.css");
+@import url("./global/footer.css");
 @import url("./terms/terms.css");
 @import url("./bikes/bikes.css");
 @import url("./insurance/insurance.css");
@@ -17,3 +17,4 @@
 @import url("./bikes/nimbus.css");
 @import url("./bikes/bike-choice.css");
 @import url("./insurance/insurance-bikes.css");
+@import url("./contact/contact.css");
