@@ -32,13 +32,12 @@
           <ul>
             <li><a class="font-1-m" href="./bikes/bikes.html">Bicicletas</a></li>
             <li><a class="font-1-m" href="./insurance.html">Seguros</a></li>
-            <li><a class="font-1-m" href="./contato.html">Contato</a></li>
+            <li><a class="font-1-m" href="./contact.html">Contato</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
-
 
   <main>
     <div class="main__title">
@@ -49,8 +48,8 @@
     </div>
 
     <div class="contact__form">
-      <div class="container">
-        <div class="contact__form__info">
+      <div class="contact__form__content container">
+        <section class="contact__form__info" aria-label="Informações de contato">
           <h2 class="font-1-m">Loja Online</h2>
           <ul class="contact__info font-2-s">
             <li>
@@ -96,13 +95,85 @@
               </figure>
             </li>
           </ul>
-        </div>
+        </section>
 
-        <div class="contact__form__data">
-        </div>
+        <section class="contact__form__data" aria-label="Formulário de contato">
+          <form class="form" action="./contact.html">
+            <div>
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" placeholder="Seu nome" required>
+            </div>
+
+            <div>
+              <label for="tel">Telefone</label>
+              <input type="tel" id="tel" name="tel" placeholder="(21) 99999-9999" required>
+            </div>
+
+            <div class="form-col-2">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="contato@email.com" required>
+            </div>
+
+            <div class="form-col-2">
+              <label for="mesage">Mensagem</label>
+              <textarea name="mesage" id="mesage" style="resize: none" placeholder="O que você precisa?" required></textarea>
+            </div>
+
+            <button type="submit" class="btn form-col-2">Enviar mensagem</button>
+          </form>
+        </section>
       </div>
     </div>
   </main>
+
+  <article class="store container">
+    <h1 class="font-1-xxl">lojas locais<span class="color-p1">.</span></h1>
+    <div class="store__local">
+      <div class="store__local__box">
+        <figure>
+          <a href="https://www.google.com.br/maps/place/Origamid/@-22.9572162,-43.1783783,17z/data=!3m1!4b1!4m5!3m4!1s0x9be1553784b685:0x630552de6ab90fca!8m2!3d-22.9572162!4d-43.1761896" target="_blank">
+            <img src="../src/img/lojas/RJ.jpg" alt="Endereço Rio de Janeiro">
+          </a>
+        </figure>
+        <div class="store__local__box__info">
+          <h3 class="font-1-xl">Rio de Janeiro</h3>
+          <div class="font-2-s local__box__list">
+            <ul>
+              <li>Rua Ali Perto, 35</li>
+              <li>Rio de Janeiro - RJ</li>
+            </ul>
+            <ul>
+              <li><a href="mailto:contato@bikcraft.com" target="_blank">rio@bikcraft.com</a></li>
+              <li><a href="tel:+5521999999999" target="_blank">(21) 99999-9999</a></li>
+            </ul>
+          </div>
+          <p class="store__hour font-1-s"><img src="../src/img/ícones/hora.svg" alt="">08-18h de seg à sáb</p>
+        </div>
+      </div>
+
+      <div class="store__local__box">
+        <figure>
+          <a href="https://www.google.com.br/maps/place/Origamid/@-22.9572162,-43.1783783,17z/data=!3m1!4b1!4m5!3m4!1s0x9be1553784b685:0x630552de6ab90fca!8m2!3d-22.9572162!4d-43.1761896" target="_blank">
+            <img src="../src/img/lojas/Sp.jpg" alt="Endereço São Paulo">
+          </a>
+        </figure>
+        <div class="store__local__box__info">
+          <h3 class="font-1-xl">São Paulo</h3>
+          <div class="font-2-s local__box__list">
+            <ul>
+              <li>Rua Ali Perto, 35</li>
+              <li>São Paulo - SP</li>
+            </ul>
+            <ul>
+              <li><a href="mailto:contato@bikcraft.com" target="_blank">sp@bikcraft.com</a></li>
+              <li><a href="tel:+5521999999999" target="_blank">(11) 99999-9999</a></li>
+            </ul>
+          </div>
+          <p class="store__hour font-1-s"><img src="../src/img/ícones/hora.svg" alt="">08-18h de seg à sáb</p>
+        </div>
+      </div>
+    </div>
+  </article>
 
   <footer class="footer">
     <div class="container">
@@ -168,7 +239,7 @@
                 <a href="./insurance.html">Seguros</a>
               </li>
               <li>
-                <a href="./contato.html">Contato</a>
+                <a href="./contact.html">Contato</a>
               </li>
               <li>
                 <a href="terms.html">Termos e Condições</a>
