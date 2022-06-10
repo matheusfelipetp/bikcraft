@@ -1,0 +1,72 @@
+#insurance .header__nav li:nth-child(2) a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--color-0);
+  transition: 0.3s ease;
+  position: absolute;
+}
+
+#insurance .article__insurance {
+  padding-top: 30px;
+}
+
+#insurance .main__title {
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+
+.insurance__benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: var(--color-12);
+  color: var(--color-0);
+}
+
+.insurance__benefits__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-top: 80px;
+}
+
+.insurance__benefits__list li {
+  display: grid;
+  gap: 8px;
+}
+
+.insurance__benefits__list li:nth-child(n + 4) {
+  margin-top: 20px;
+}
+
+.insurance__benefits__list h3 {
+  font-weight: 600;
+}
+
+.insurance__benefits__list p {
+  color: var(--color-6);
+  font-weight: 400;
+  max-width: 36ch;
+}
+
+@media (max-width: 800px) {
+  #insurance .header__nav li:nth-child(2) a::after {
+    display: none;
+  }
+  .insurance__benefits {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .insurance__benefits__list {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .insurance__benefits__list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

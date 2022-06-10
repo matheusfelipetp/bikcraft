@@ -31,6 +31,7 @@
   background: var(--color-0);
   transition: 0.3s ease;
   position: absolute;
+  margin-top: 4px;
 }
 
 .header__nav li a:hover:after {
@@ -68,5 +69,18 @@
     padding: 8px 12px;
     border-radius: 4px;
     font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__menu {
+    justify-content: center;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__nav li a {
+    padding: 5px 5px;
   }
 }

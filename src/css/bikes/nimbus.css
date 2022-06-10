@@ -1,0 +1,132 @@
+.product-bg {
+  background: var(--color-11);
+  padding-bottom: 120px;
+  color: var(--color-0);
+}
+
+.bike__product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.product__img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product__img img {
+  flex: 1;
+  min-width: 200px;
+}
+
+.product__img img:first-child {
+  min-width: 100%;
+}
+
+.product__content > p {
+  margin-bottom: 32px;
+}
+
+.product__content p {
+  color: var(--color-5);
+}
+
+.content__btn {
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-content: start;
+  gap: 8px 12px;
+  margin-bottom: 40px;
+}
+
+.content__btn a {
+  grid-row: span 2;
+}
+
+.content__btn span {
+  color: var(--color-6);
+  display: flex;
+  align-items: center;
+  background-color: var(--color-12);
+  padding: 4px 8px;
+  border-radius: 4px;
+  gap: 8px;
+  width: max-content;
+}
+
+.product__content h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  margin-bottom: 12px;
+}
+
+.product__info,
+.product__features {
+  background: var(--color-12);
+  border-radius: 4px;
+  padding: 32px;
+}
+
+.product__info {
+  margin-bottom: 40px;
+}
+
+.product__info__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.product__info__list li {
+  display: grid;
+  gap: 8px;
+  max-width: 28ch;
+}
+
+.product__features__list li {
+  color: var(--color-4);
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__features__list li span {
+  color: var(--color-6);
+}
+
+.product__features__list li:nth-child(n + 2) {
+  border-top: 2px solid var(--color-11);
+}
+
+@media (max-width: 800px) {
+  .product-bg {
+    background: var(--color-11);
+    padding-bottom: 60px;
+  }
+  .bike__product {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 460px) {
+  .product__img {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .product__info__list {
+    grid-template-columns: 1fr;
+  }
+  .content__btn {
+    grid-template-columns: 1fr;
+  }
+  .content__btn a {
+    margin-bottom: 8px;
+  }
+}

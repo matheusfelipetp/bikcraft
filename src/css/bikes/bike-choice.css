@@ -1,0 +1,17 @@
+#product .bike__list__info {
+  padding: 0 0 20px 0;
+}
+
+.bike__choice {
+  padding: 60px 0;
+}
+
+.bike__choice h1 {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+  .bike__choice {
+    padding: 40px 0;
+  }
+}
