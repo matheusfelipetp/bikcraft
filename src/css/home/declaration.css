@@ -12,6 +12,8 @@
 }
 
 .declaration__text {
+  background: url("../../img/decorador/bottom-right-p.svg") no-repeat bottom
+    40px right 40px;
   padding: 40px 40px 80px 80px;
   align-self: end;
 }
@@ -42,6 +44,12 @@
   color: var(--primary-4);
 }
 
+@media (min-width: 1200px) {
+  .declaration__img img {
+    max-height: 520px;
+  }
+}
+
 @media (max-width: 800px) {
   .section__declaration {
     grid-template-columns: 1fr;
@@ -51,6 +59,7 @@
     max-height: 200px;
   }
   .declaration__text {
+    background: none;
     padding: 40px 20px;
     justify-self: center;
   }

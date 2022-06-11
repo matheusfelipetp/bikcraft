@@ -13,6 +13,7 @@
 
   <link rel="shortcut icon" href="../Favicon.svg" type="image/x-icon">
   <link rel="stylesheet" href="../src/css/reset.css">
+  <link rel="preload" href="./src/css/style.css" as="style">
   <link rel="stylesheet" href="../src/css/style.css">
 
   <title>Orçamento | Bikcraft</title>
@@ -24,7 +25,7 @@
       <div class="header__menu">
         <div class="header__logo">
           <a href="../index.html">
-            <img src="../src/img/logo.svg" alt="Logo Bikcraft">
+            <img src="../src/img/logo.svg" width="136" height="32" alt="Logo Bikcraft">
           </a>
         </div>
 
@@ -65,23 +66,23 @@
           <div class="budget__product__details">
             <ul class="font-1-xs">
               <li>
-                <img src="../src/img/ícones/bicicleta.svg" alt="">
+                <img src="../src/img/ícones/bicicleta.svg" width="32" height="32" alt="">
                 Motor Elétrico
               </li>
               <li>
-                <img src="../src/img/ícones/ondas.svg" alt="">
+                <img src="../src/img/ícones/ondas.svg" width="32" height="32" alt="">
                 Fibra de carbono
               </li>
               <li>
-                <img src="../src/img/ícones/velocidade.svg" alt="">
+                <img src="../src/img/ícones/velocidade.svg" width="32" height="32" alt="">
                 60 km/h
               </li>
               <li>
-                <img src="../src/img/ícones/rastreador.svg" alt="">
+                <img src="../src/img/ícones/rastreador.svg" width="32" height="32" alt="">
                 Rastreador
               </li>
             </ul>
-            <img src="../src/img/bicicletas/nimbus.jpg" alt="Bicicleta Nimbus Stark">
+            <img src="../src/img/bicicletas/nimbus.jpg" width="1120" height="680" alt="Bicicleta Nimbus Stark">
           </div>
 
           <input type="radio" name="product" value="magic" id="magic">
@@ -89,23 +90,23 @@
           <div class="budget__product__details">
             <ul class="font-1-xs">
               <li>
-                <img src="../src/img/ícones/bicicleta.svg" alt="">
+                <img src="../src/img/ícones/bicicleta.svg" width="32" height="32" alt="">
                 Motor Elétrico
               </li>
               <li>
-                <img src="../src/img/ícones/ondas.svg" alt="">
+                <img src="../src/img/ícones/ondas.svg" width="32" height="32" alt="">
                 Fibra de carbono
               </li>
               <li>
-                <img src="../src/img/ícones/velocidade.svg" alt="">
+                <img src="../src/img/ícones/velocidade.svg" width="32" height="32" alt="">
                 45 km/h
               </li>
               <li>
-                <img src="../src/img/ícones/rastreador.svg" alt="">
+                <img src="../src/img/ícones/rastreador.svg" width="32" height="32" alt="">
                 Rastreador
               </li>
             </ul>
-            <img src="../src/img/bicicletas/magic.jpg" alt="Bicicleta Magic Might">
+            <img src="../src/img/bicicletas/magic.jpg" width="1120" height="680" alt="Bicicleta Magic Might">
           </div>
 
           <input type="radio" name="product" value="nebula" id="nebula">
@@ -113,23 +114,23 @@
           <div class="budget__product__details">
             <ul class="font-1-xs">
               <li>
-                <img src="../src/img/ícones/bicicleta.svg" alt="">
+                <img src="../src/img/ícones/bicicleta.svg" width="32" height="32" alt="">
                 Motor Elétrico
               </li>
               <li>
-                <img src="../src/img/ícones/ondas.svg" alt="">
+                <img src="../src/img/ícones/ondas.svg" width="32" height="32" alt="">
                 Fibra de carbono
               </li>
               <li>
-                <img src="../src/img/ícones/velocidade.svg" alt="">
+                <img src="../src/img/ícones/velocidade.svg" width="32" height="32" alt="">
                 50 km/h
               </li>
               <li>
-                <img src="../src/img/ícones/rastreador.svg" alt="">
+                <img src="../src/img/ícones/rastreador.svg" width="32" height="32" alt="">
                 Rastreador
               </li>
             </ul>
-            <img src="../src/img/bicicletas/nebula.jpg" alt="Bicicleta Nebula Cosmic">
+            <img src="../src/img/bicicletas/nebula.jpg" width="1120" height="680" alt="Bicicleta Nebula Cosmic">
           </div>
         </div>
 
@@ -152,48 +153,48 @@
         </div>
 
         <div>
-          <label for="name">Sobrenome</label>
+          <label for="last-name">Sobrenome</label>
           <input type="text" id="last-name" name="last-name" required>
         </div>
 
         <div class="form-col-2">
-          <label for="name">CPF</label>
+          <label for="cpf">CPF</label>
           <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
         </div>
 
         <div class="form-col-2">
-          <label for="name">Email</label>
+          <label for="email">Email</label>
           <input type="email" id="email" name="email" placeholder="contato@bikcraft.com" required>
         </div>
 
         <h2 class="font-1-xs form-col-2">Entrega</h2>
         <div>
-          <label for="name">CEP</label>
+          <label for="cep">CEP</label>
           <input type="text" id="cep" name="cep" required>
         </div>
 
         <div>
-          <label for="name">Número</label>
+          <label for="number">Número</label>
           <input type="text" id="number" name="number" required>
         </div>
 
         <div>
-          <label for="name">Logradouro</label>
+          <label for="address">Logradouro</label>
           <input type="text" id="address" name="address" placeholder="Rua, Avenida etc" required>
         </div>
 
         <div>
-          <label for="name">Bairro</label>
+          <label for="district">Bairro</label>
           <input type="text" id="district" name="district" required>
         </div>
 
         <div>
-          <label for="name">Cidade</label>
+          <label for="city">Cidade</label>
           <input type="text" id="city" name="city" required>
         </div>
 
         <div>
-          <label for="name">Estado</label>
+          <label for="state">Estado</label>
           <select type="text" id="state" name="state" required>
             <option value=""></option>
             <option value="Acre">Acre</option>
@@ -226,7 +227,7 @@
         </div>
 
         <div class="checkbox">
-          <input type="checkbox" name="terms" id="terms">
+          <input type="checkbox" name="terms" id="terms" required>
           <label for="terms">Li e aceito os <a href="./terms.html" target="_blank">termos e condições</a>.</label>
         </div>
 
@@ -239,7 +240,7 @@
     <div class="container">
       <div class="footer__info">
         <figure>
-          <img src="../src/img/logo.svg" alt="Logo Bikcraft">
+          <img src="../src/img/logo.svg" width="136" height="32" alt="Logo Bikcraft">
           <figcaption>Logo Bikcraft</figcaption>
         </figure>
 
@@ -264,7 +265,7 @@
             <li>
               <figure>
                 <a href="https://www.instagram.com/matheusfelipetp/" target="_blank">
-                  <img src="../src/img/ícones/instagram.svg" alt="Logo instagram">
+                  <img src="../src/img/ícones/instagram.svg" width="32" height="32" alt="Logo instagram">
                 </a>
                 <figcaption>Logo Instagram</figcaption>
               </figure>
@@ -272,7 +273,7 @@
             <li>
               <figure>
                 <a href="https://pt-br.facebook.com/origamid" target="_blank">
-                  <img src="../src/img/ícones/facebook.svg" alt="Logo facebook">
+                  <img src="../src/img/ícones/facebook.svg" width="32" height="32" alt="Logo facebook">
                 </a>
                 <figcaption>Logo facebook</figcaption>
               </figure>
@@ -280,7 +281,7 @@
             <li>
               <figure>
                 <a href="https://www.youtube.com/c/Origamid" target="_blank">
-                  <img src="../src/img/ícones/youtube.svg" alt="Logo youtube">
+                  <img src="../src/img/ícones/youtube.svg" width="32" height="32" alt="Logo youtube">
                 </a>
                 <figcaption>Logo youtube</figcaption>
               </figure>

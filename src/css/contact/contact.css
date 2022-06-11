@@ -28,7 +28,8 @@
 }
 
 .contact__form__info {
-  background: var(--color-12);
+  background: var(--color-12) url("../../img/decorador/bottom-left.svg")
+    no-repeat bottom 40px left 40px;
   color: var(--color-0);
   border-radius: 4px 0 0 4px;
 }
@@ -94,7 +95,8 @@
 }
 
 .contact__form__data {
-  background: var(--color-0);
+  background: var(--color-0) url("../../img/decorador/bottom-right.svg")
+    no-repeat bottom 40px right 40px;
   border-radius: 0 4px 4px 0;
 }
 
@@ -111,6 +113,7 @@
   .contact__form__info,
   .contact__form__data {
     padding: 32px;
+    background-image: none;
   }
   .contact__form__info h2 {
     margin-bottom: 32px;

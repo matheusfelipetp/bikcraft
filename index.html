@@ -13,6 +13,7 @@
 
   <link rel="shortcut icon" href="./Favicon.svg" type="image/x-icon">
   <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="preload" href="./src/css/style.css" as="style">
   <link rel="stylesheet" href="./src/css/style.css">
 
   <title>Bikcraft - Bicicletas elétricas</title>
@@ -24,7 +25,7 @@
       <div class="header__menu">
         <div class="header__logo">
           <a href="./index.html">
-            <img src="./src/img/logo.svg" alt="Logo Bikcraft">
+            <img src="./src/img/logo.svg" width="136" height="32" alt="Logo Bikcraft">
           </a>
         </div>
 
@@ -48,10 +49,10 @@
         <p class="font-2-l">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="btn" href="./pages/bikes/bikes.html">Escolha a sua</a>
       </div>
-      <figure class="intro__img">
-        <img src="./src/img/fotos/intro.jpg" alt="Bicicleta elétrica preta">
-        <figcaption>Bicicleta elétrica preta</figcaption>
-      </figure>
+      <picture class="intro__img">
+        <source media="(max-width: 800px)" srcset="./src/img/bicicletas/nimbus.jpg">
+        <img src="./src/img/fotos/intro.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta">
+      </picture>
     </div>
   </main>
 
@@ -63,21 +64,21 @@
       <ul class="bike__list__info">
         <li>
           <a href="./pages/bikes/magic.html">
-            <img src="./src/img/bicicletas/magic-home.jpg" alt="Bicicleta Elétrica Magic Might">
+            <img src="./src/img/bicicletas/magic-home.jpg" width="920" height="1040" alt="Bicicleta Elétrica Magic Might">
             <h3 class="font-1-xl">Magic Might</h3>
             <p class="font-2-m">R$ 2499</p>
           </a>
         </li>
         <li>
           <a href="./pages/bikes/nimbus.html">
-            <img src="./src/img/bicicletas/nimbus-home.jpg" alt="Bicicleta Elétrica Nimbus Stark">
+            <img src="./src/img/bicicletas/nimbus-home.jpg" width="920" height="1040" alt="Bicicleta Elétrica Nimbus Stark">
             <h3 class="font-1-xl">Nimbus Stark</h3>
             <p class="font-2-m">R$ 4999</p>
           </a>
         </li>
         <li>
           <a href="./pages/bikes/nebula.html">
-            <img src="./src/img/bicicletas/nebula-home.jpg" alt="Bicicleta Elétrica Nebula Cosmic">
+            <img src="./src/img/bicicletas/nebula-home.jpg" width="920" height="1040" alt="Bicicleta Elétrica Nebula Cosmic">
             <h3 class="font-1-xl">Nebula Cosmic</h3>
             <p class="font-2-m">R$ 3999</p>
           </a>
@@ -98,13 +99,13 @@
 
         <div class="tech__box">
           <div class="box__info">
-            <img src="./src/img/ícones/bicicleta.svg" alt="Bicicleta Elétrica">
+            <img src="./src/img/ícones/bicicleta.svg" width="32" height="32" alt="Bicicleta Elétrica">
             <h3 class="font-1-l">Motor ELétrico</h3>
             <p class="font-1-s">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
           </div>
 
           <div class="box__info">
-            <img src="./src/img/ícones/rastreador.svg" alt="Rastreador">
+            <img src="./src/img/ícones/rastreador.svg" width="32" height="32" alt="Rastreador">
             <h3 class="font-1-l">Rastreador</h3>
             <p class="font-1-s">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
           </div>
@@ -112,7 +113,7 @@
       </div>
 
       <figure class="tech__img">
-        <img src="./src/img/fotos/tecnologia.jpg" alt="Ferramentas artesanais">
+        <img src="./src/img/fotos/tecnologia.jpg" width="1400" height="2240" alt="Ferramentas artesanais">
         <figcaption>Ferramentas artesanais</figcaption>
       </figure>
     </div>
@@ -123,35 +124,35 @@
 
     <ul class="partners__box">
       <li>
-        <img src="./src/img/parceiros/caravan.svg" alt="Logo Caravan">
+        <img src="./src/img/parceiros/caravan.svg" width="176" height="48" alt="Logo Caravan">
       </li>
       <li>
-        <img src="./src/img/parceiros/ranek.svg" alt="Logo Ranked">
+        <img src="./src/img/parceiros/ranek.svg" width="186" height="45" alt="Logo Ranked">
       </li>
       <li>
-        <img src="./src/img/parceiros/wildbeast.svg" alt="Logo Wildbeast">
+        <img src="./src/img/parceiros/wildbeast.svg" width="247" height="42" alt="Logo Wildbeast">
       </li>
       <li>
-        <img src="./src/img/parceiros/flexblog.svg" alt="Logo Flexblog">
+        <img src="./src/img/parceiros/flexblog.svg" width="206" height="48" alt="Logo Flexblog">
       </li>
       <li>
-        <img src="./src/img/parceiros/surfbot.svg" alt="Logo Surfbot">
+        <img src="./src/img/parceiros/surfbot.svg" width="244" height="60" alt="Logo Surfbot">
       </li>
       <li>
-        <img src="./src/img/parceiros/handel.svg" alt="Logo Handel">
+        <img src="./src/img/parceiros/handel.svg" width="169" height="60" alt="Logo Handel">
       </li>
       <li>
-        <img src="./src/img/parceiros/dogs.svg" alt="Logo Dogs">
+        <img src="./src/img/parceiros/dogs.svg" width="186" height="47" alt="Logo Dogs">
       </li>
       <li>
-        <img src="./src/img/parceiros/lescone.svg" alt="Logo Lescone">
+        <img src="./src/img/parceiros/lescone.svg" width="254" height="49" alt="Logo Lescone">
       </li>
     </ul>
   </section>
 
   <section class="section__declaration" aria-label="Depoimento">
     <figure class="declaration__img">
-      <img src="./src/img/fotos/depoimento.jpg" alt="Mulher pedalando uma Bikcraft">
+      <img src="./src/img/fotos/depoimento.jpg" width="1560" height="1360" alt="Mulher pedalando uma Bikcraft">
       <figcaption>Mulher pedalando uma Bikcraft</figcaption>
     </figure>
     <div class="declaration__text">
@@ -174,19 +175,19 @@
           </div>
           <ul>
             <li class="insurance__list">
-              <img src="./src/img/ícones/check-list.svg" alt="Check list">
+              <img src="./src/img/ícones/check-list.svg" width="13" height="9" alt="Check list">
               <p class="font-2-m">Duas trocas por ano</p>
             </li>
             <li class="insurance__list">
-              <img src="./src/img/ícones/check-list.svg" alt="Check list">
+              <img src="./src/img/ícones/check-list.svg" width="13" height="9" alt="Check list">
               <p class="font-2-m">Assistência técnica</p>
             </li>
             <li class="insurance__list">
-              <img src="./src/img/ícones/check-list.svg" alt="Check list">
+              <img src="./src/img/ícones/check-list.svg" width="13" height="9" alt="Check list">
               <p class="font-2-m">Suporte 08h às 18h</p>
             </li>
             <li class="insurance__list">
-              <img src="./src/img/ícones/check-list.svg" alt="Check list">
+              <img src="./src/img/ícones/check-list.svg" width="13" height="9" alt="Check list">
               <p class="font-2-m">Cobertura estadual</p>
             </li>
           </ul>
@@ -200,27 +201,27 @@
           </div>
           <ul>
             <li class="insurance__list">
-              <img src="./src/img/ícones/check-list.svg" alt="Check list">
+              <img src="./src/img/ícones/check-list.svg" width="13" height="9" alt="Check list">
               <p class="font-2-m">Cinco trocas por ano</p>
             </li>
             <li class="insurance__list">
-              <img src="./src/img/ícones/check-list.svg" alt="Check list">
+              <img src="./src/img/ícones/check-list.svg" width="13" height="9" alt="Check list">
               <p class="font-2-m">Assistência especial</p>
             </li>
             <li class="insurance__list">
-              <img src="./src/img/ícones/check-list.svg" alt="Check list">
+              <img src="./src/img/ícones/check-list.svg" width="13" height="9" alt="Check list">
               <p class="font-2-m">Suporte 24h</p>
             </li>
             <li class="insurance__list">
-              <img src="./src/img/ícones/check-list.svg" alt="Check list">
+              <img src="./src/img/ícones/check-list.svg" width="13" height="9" alt="Check list">
               <p class="font-2-m">Cobertura nacional</p>
             </li>
             <li class="insurance__list">
-              <img src="./src/img/ícones/check-list.svg" alt="Check list">
+              <img src="./src/img/ícones/check-list.svg" width="13" height="9" alt="Check list">
               <p class="font-2-m">Desconto em parceiros</p>
             </li>
             <li class="insurance__list">
-              <img src="./src/img/ícones/check-list.svg" alt="Check list">
+              <img src="./src/img/ícones/check-list.svg" width="13" height="9" alt="Check list">
               <p class="font-2-m">Acesso ao Clube Bikcraft</p>
             </li>
           </ul>
@@ -234,7 +235,7 @@
     <div class="container">
       <div class="footer__info">
         <figure>
-          <img src="./src/img/logo.svg" alt="Logo Bikcraft">
+          <img src="./src/img/logo.svg" width="136" height="32" alt="Logo Bikcraft">
           <figcaption>Logo Bikcraft</figcaption>
         </figure>
 
@@ -259,7 +260,7 @@
             <li>
               <figure>
                 <a href="https://www.instagram.com/matheusfelipetp/" target="_blank">
-                  <img src="./src/img/ícones/instagram.svg" alt="Logo instagram">
+                  <img src="./src/img/ícones/instagram.svg" width="32" height="32" alt="Logo instagram">
                 </a>
                 <figcaption>Logo Instagram</figcaption>
               </figure>
@@ -267,7 +268,7 @@
             <li>
               <figure>
                 <a href="https://pt-br.facebook.com/origamid" target="_blank">
-                  <img src="./src/img/ícones/facebook.svg" alt="Logo facebook">
+                  <img src="./src/img/ícones/facebook.svg" width="32" height="32" alt="Logo facebook">
                 </a>
                 <figcaption>Logo facebook</figcaption>
               </figure>
@@ -275,7 +276,7 @@
             <li>
               <figure>
                 <a href="https://www.youtube.com/c/Origamid" target="_blank">
-                  <img src="./src/img/ícones/youtube.svg" alt="Logo youtube">
+                  <img src="./src/img/ícones/youtube.svg" width="32" height="32" alt="Logo youtube">
                 </a>
                 <figcaption>Logo youtube</figcaption>
               </figure>

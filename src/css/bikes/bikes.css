@@ -37,6 +37,7 @@
 }
 
 .item__card__content {
+  background: url("../../img/decorador/top-right.svg") no-repeat top right;
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
@@ -63,6 +64,7 @@
 .item__card__content > p {
   color: var(--color-8);
   margin-bottom: 32px;
+  max-width: 45ch;
 }
 
 .item__card__content ul {
@@ -123,6 +125,7 @@
     padding-bottom: 40px;
   }
   .item__card__content {
+    background: none;
     grid-template-columns: 1fr;
   }
   .item__card__content ul {

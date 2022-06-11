@@ -39,6 +39,10 @@
   height: 160px;
 }
 
+.form select {
+  padding: 14px;
+}
+
 .form input[type="checkbox"] {
   cursor: pointer;
 }
