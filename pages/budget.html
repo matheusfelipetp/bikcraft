@@ -62,12 +62,75 @@
 
           <input type="radio" name="product" value="nimbus" id="nimbus">
           <label for="nimbus">Nimbus Stark <span>R$ 4999</span></label>
+          <div class="budget__product__details">
+            <ul class="font-1-xs">
+              <li>
+                <img src="../src/img/ícones/bicicleta.svg" alt="">
+                Motor Elétrico
+              </li>
+              <li>
+                <img src="../src/img/ícones/ondas.svg" alt="">
+                Fibra de carbono
+              </li>
+              <li>
+                <img src="../src/img/ícones/velocidade.svg" alt="">
+                60 km/h
+              </li>
+              <li>
+                <img src="../src/img/ícones/rastreador.svg" alt="">
+                Rastreador
+              </li>
+            </ul>
+            <img src="../src/img/bicicletas/nimbus.jpg" alt="Bicicleta Nimbus Stark">
+          </div>
 
           <input type="radio" name="product" value="magic" id="magic">
           <label for="magic">Magic Might <span>R$ 2499</span></label>
+          <div class="budget__product__details">
+            <ul class="font-1-xs">
+              <li>
+                <img src="../src/img/ícones/bicicleta.svg" alt="">
+                Motor Elétrico
+              </li>
+              <li>
+                <img src="../src/img/ícones/ondas.svg" alt="">
+                Fibra de carbono
+              </li>
+              <li>
+                <img src="../src/img/ícones/velocidade.svg" alt="">
+                45 km/h
+              </li>
+              <li>
+                <img src="../src/img/ícones/rastreador.svg" alt="">
+                Rastreador
+              </li>
+            </ul>
+            <img src="../src/img/bicicletas/magic.jpg" alt="Bicicleta Magic Might">
+          </div>
 
           <input type="radio" name="product" value="nebula" id="nebula">
           <label for="nebula">Nebula Cosmic <span>R$ 3999</span></label>
+          <div class="budget__product__details">
+            <ul class="font-1-xs">
+              <li>
+                <img src="../src/img/ícones/bicicleta.svg" alt="">
+                Motor Elétrico
+              </li>
+              <li>
+                <img src="../src/img/ícones/ondas.svg" alt="">
+                Fibra de carbono
+              </li>
+              <li>
+                <img src="../src/img/ícones/velocidade.svg" alt="">
+                50 km/h
+              </li>
+              <li>
+                <img src="../src/img/ícones/rastreador.svg" alt="">
+                Rastreador
+              </li>
+            </ul>
+            <img src="../src/img/bicicletas/nebula.jpg" alt="Bicicleta Nebula Cosmic">
+          </div>
         </div>
 
         <div class="budget__product__content font-1-s" id="budget-insurance">
@@ -131,7 +194,40 @@
 
         <div>
           <label for="name">Estado</label>
-          <input type="text" id="state" name="state" placeholder="Selecione" required>
+          <select type="text" id="state" name="state" required>
+            <option value=""></option>
+            <option value="Acre">Acre</option>
+            <option value="Alagoas">Alagoas</option>
+            <option value="Amapa">Amapá</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Bahia">Bahia</option>
+            <option value="Ceará">Ceará</option>
+            <option value="Distrito Federal">Distrito Federal</option>
+            <option value="Espirito Santo">Espírito Santo</option>
+            <option value="Goias">Goiás</option>
+            <option value="Mato Grosso">Mato Grosso</option>
+            <option value="Mato Grosso Do Sul">Mato Grosso do Sul</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="Para">Pará</option>
+            <option value="Paraiba">Paraíba</option>
+            <option value="Parana">Paraná</option>
+            <option value="Pernambuco">Pernambuco</option>
+            <option value="Piaui">Piauí</option>
+            <option value="Rio De Janeiro">Rio de Janeiro</option>
+            <option value="Rio Grande Do Norte">Rio Grande do Norte</option>
+            <option value="Rio Grande Do Sul">Rio Grande do Sul</option>
+            <option value="Rondonia">Rondônia</option>
+            <option value="Roraima">Roraima</option>
+            <option value="Santa Catarina">Santa Catarina</option>
+            <option value="Sao Paulo">São Paulo</option>
+            <option value="Sergipe">Sergipe</option>
+            <option value="Tocantis">Tocantis</option>
+          </select>
+        </div>
+
+        <div class="checkbox">
+          <input type="checkbox" name="terms" id="terms">
+          <label for="terms">Li e aceito os <a href="./terms.html" target="_blank">termos e condições</a>.</label>
         </div>
 
         <button class="btn form-col-2">Solicitar orçamento</button>
