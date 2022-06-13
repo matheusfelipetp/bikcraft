@@ -16,10 +16,15 @@
   <link rel="preload" href="./src/css/style.css" as="style">
   <link rel="stylesheet" href="../src/css/style.css">
 
+  <script>document.documentElement.classList.add('js')</script>
+  <script defer src="../js/header.js"></script>
+  <script defer src="../js/budget.js"></script>
+  <script defer src="../js/insurance-questions.js"></script>
+
   <title>Seguros | Bikcraft</title>
 </head>
 
-<body id="insurance">
+<body id="insurance-page">
   <header class="header">
     <div class="container">
       <div class="header__menu">
@@ -74,7 +79,7 @@
                 <p class="font-2-m">Cobertura estadual</p>
               </li>
             </ul>
-            <a class="btn second" href="./budget.html">Increva-se</a>
+            <a class="btn second" href="./budget.html?type=insurance&product=silver">Increva-se</a>
           </div>
 
           <div class="insurance__info gold">
@@ -108,7 +113,7 @@
                 <p class="font-2-m">Acesso ao Clube Bikcraft</p>
               </li>
             </ul>
-            <a class="btn" href="./budget.html">Increva-se</a>
+            <a class="btn" href="./budget.html?type=insurance&product=gold">Increva-se</a>
           </div>
         </div>
       </div>
@@ -158,32 +163,32 @@
 
     <dl>
       <div class="insurance__questions__box">
-        <dt class="font-1-m-b">Qual forma de pagamento vocês aceitam?</dt>
-        <dd class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question1" aria-expanded="true">Qual forma de pagamento vocês aceitam?</button></dt>
+        <dd id="question1" class="font-2-s activate">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
       </div>
       <div class="insurance__questions__box">
-        <dt class="font-1-m-b">Como posso entrar em contato?</dt>
-        <dd class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question2" aria-expanded="false">Como posso entrar em contato?</button></dt>
+        <dd id="question2" class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
       </div>
       <div class="insurance__questions__box">
-        <dt class="font-1-m-b">Vocês possuem algum desconto?</dt>
-        <dd class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question3" aria-expanded="false">Vocês possuem algum desconto?</button></dt>
+        <dd id="question3" class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
       </div>
       <div class="insurance__questions__box">
-        <dt class="font-1-m-b">Qual a garantia das Bikcrafts?</dt>
-        <dd class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question4" aria-expanded="false">Qual a garantia das Bikcrafts?</button></dt>
+        <dd id="question4" class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
       </div>
       <div class="insurance__questions__box">
-        <dt class="font-1-m-b">Posso parcelar no boleto?</dt>
-        <dd class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question5" aria-expanded="false">Posso parcelar no boleto?</button></dt>
+        <dd id="question5" class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
       </div>
       <div class="insurance__questions__box">
-        <dt class="font-1-m-b">Quantas trocas posso fazer ao ano?</dt>
-        <dd class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question6" aria-expanded="false">Quantas trocas posso fazer ao ano?</button></dt>
+        <dd id="question6" class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
       </div>
       <div class="insurance__questions__box">
-        <dt class="font-1-m-b">Qual Bikcraft devo escolher para o meu tamanho?</dt>
-        <dd class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question7" aria-expanded="false">Qual Bikcraft devo escolher para o meu tamanho?</button></dt>
+        <dd id="question7" class="font-2-s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</dd>
       </div>
     </dl>
   </section>

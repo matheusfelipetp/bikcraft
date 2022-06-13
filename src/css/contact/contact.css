@@ -2,16 +2,6 @@
   background: linear-gradient(var(--color-11) 600px, var(--color-1) 0px);
 }
 
-#contact .header__nav li:nth-child(3) a::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-  background: var(--color-0);
-  transition: 0.3s ease;
-  position: absolute;
-}
-
 .contact__form {
   padding-bottom: 120px;
 }
@@ -103,9 +93,6 @@
 @media (max-width: 800px) {
   #contact {
     background: linear-gradient(var(--color-11) 500px, var(--color-1) 0px);
-  }
-  #contact .header__nav li:nth-child(3) a::after {
-    display: none;
   }
   .contact__form__content {
     grid-template-columns: 1fr;

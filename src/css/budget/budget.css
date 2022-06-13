@@ -123,7 +123,11 @@
 }
 
 #bikcraft:checked ~ #budget-bikcraft,
+<<<<<<< HEAD
 #insurance-radio:checked ~ #budget-insurance {
+=======
+#insurance:checked ~ #budget-insurance {
+>>>>>>> dd207bb (JavaScript adicionado)
   display: grid;
   gap: 20px;
 }
