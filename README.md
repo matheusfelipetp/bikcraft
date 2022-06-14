@@ -1,6 +1,6 @@
 # Projeto Bikcraft Final
 
-Projeto final do curso Origamid utilizando HTML, CSS e JavaScript, com o objetivo de criar um site fictício para uma empresa de bicicletas, criando todas as páginas e componentes. O site está responsivo para todas as telas, utilizando FlexBox e Grid Layout.
+Projeto final do curso Origamid utilizando HTML, CSS e JavaScript, com o objetivo de criar um site fictício para uma empresa de bicicletas, criando todas as páginas e componentes, utilizando FlexBox e Grid layout. O site está responsivo para todas as telas.
 
 ## 🔨 FERRAMENTAS
 - HTML5
