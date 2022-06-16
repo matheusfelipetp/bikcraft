@@ -7,6 +7,12 @@ Projeto final do curso Origamid feito em HTML, CSS e JavaScript, com o objetivo 
 - CSS3
 - JavaScript
 
+## 🎨 Layout
+
+- <a href="https://matheusfelipetp.github.io/bikcraft">Live preview</a>
+- <a href="https://www.figma.com/file/CeJE5ZabmrqpTvT0uvpxtf/projeto-bikcraft?node-id=0%3A1" target="_blank">Figma</a>
+
+
 ## 💻 RESPONSIVIDADE 
 - O site está responsivo para todas as telas.
 
